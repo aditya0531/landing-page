@@ -1,0 +1,158 @@
+@import url('https://fonts.googlemaps.com/css2?family=Poppins');
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing : border-box;
+}
+header{
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/back_img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h3{
+    color:rgba(241, 226, 138, 0.514);
+    height: 80px;
+    width: 100%;
+    font-size: 35px;
+    padding-top: 400px;
+    padding:0px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+h2{
+    color:rgba(241, 226, 138, 0.514);
+    height: 100px;
+    width: 100%;
+    font-size: 60px;
+    padding-top: 400px;
+    padding:30px 30px;
+    padding-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    height: 50px;
+    width: 100%;
+}
+nav .logo p{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgba(241, 226, 138, 0.514);
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    padding-top: 20px;
+    list-style: none;
+}
+nav li a{
+    font-size:20px;
+    padding: 0px 20px;
+    color:rgba(251, 237, 159, 0.514);
+    padding: 0px,30px;
+}
+nav li a:hover{
+    color:white;
+    transition: all 0.4s ease 0s;
+}
+ p{
+    padding: 0px 20px;
+}
+item1 ul{
+    float: left;  
+}
+.item2 ul{
+    columns:1;  
+}
+item3 ul{
+    float: left;  
+}
+.item4 ul{ 
+    columns: 2;
+}
+.item1 ul p{
+    color:rgba(241, 226, 138, 0.514);
+    padding: 0px,30px;
+    font-size: 20px;
+    padding-left: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+.item2 p{
+    color: #f8f0f0;
+    padding: 10px,60px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.item2 ul li{
+    color: #f8f0f0;
+    padding: 0px,30px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.item3 ul li{
+    color: #f8f0f0;
+    padding: 0px,30px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.item1 ul li{
+    color: #f8f0f0;
+    padding: 10px,60px;
+    font-size: 20px;
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+item1 ul li{
+    color:rgba(241, 226, 138, 0.514);
+    padding: 0px,30px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+}
+item3 ul li{
+    padding: 0px 20px;
+    color:rgba(241, 226, 138, 0.514);
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: circle;
+}
+item2 ul li{
+    padding: 0px 20px;
+    color:rgba(241, 226, 138, 0.514);
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: circle;
+}
+.item3 ul p{
+    color:rgba(241, 226, 138, 0.514);
+    padding: 0px,30px;
+    font-size: 20px;
+    padding-left: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+.item4 ul li{
+    padding: 0px 20px;
+    color: #f8f0f0;
+   
+    padding: 0px 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: circle;
+}
